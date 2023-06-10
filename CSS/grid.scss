@@ -1,0 +1,51 @@
+.container {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin: 15 px 0;
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        .btn-primary {
+            background-color: #2D8392;
+        }
+        .myBtn {
+            background-color: #fc7643;
+        }
+    }
+    .importance {
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+    .priority-0 {
+        background-color: #28a745;
+        color: #fff;
+    }
+    .priority-1 {
+        background-color: #28a745;
+        color: #fff;
+    }
+    .priority-2 {
+        background-color: #ffc107;
+        color: #000;
+    }
+    .priority-3 {
+        background-color: #ffc107;
+        color: #000;
+    }
+    .priority-4 {
+        background-color: #dc3545;
+        color: #fff;
+    }
+    .priority-5 {
+        background-color: #dc3545;
+        color: #fff;
+    }
+}

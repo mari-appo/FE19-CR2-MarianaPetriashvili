@@ -1,0 +1,36 @@
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fc7643;
+    padding: 10px;
+}
+
+.container-fluid .form-control {
+    background-color: #2D8392;
+}
+
+.container-fluid .btn {
+    color: aliceblue;
+    border: #2D8392;
+}
+
+.container-fluid .btn :hover {
+    background-color: #2D8392;
+}
+
+.container-fluid .d-flex {
+    color: aliceblue;
+}
+
+.container-fluid .d-flex :hover {
+    background-color: #2D8392;
+}
+
+.container-fluid .dropdown-menu :hover {
+    background-color: #2D8392 !important;
+    color: aliceblue;
+}
+
+
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,51 @@
+.container {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin: 15 px 0;
+}
+.container #grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.container #grid .btn-primary {
+  background-color: #2D8392;
+}
+.container #grid .myBtn {
+  background-color: #fc7643;
+}
+.container .importance {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.container .priority-0 {
+  background-color: #28a745;
+  color: #fff;
+}
+.container .priority-1 {
+  background-color: #28a745;
+  color: #fff;
+}
+.container .priority-2 {
+  background-color: #ffc107;
+  color: #000;
+}
+.container .priority-3 {
+  background-color: #ffc107;
+  color: #000;
+}
+.container .priority-4 {
+  background-color: #dc3545;
+  color: #fff;
+}
+.container .priority-5 {
+  background-color: #dc3545;
+  color: #fff;
+}/*# sourceMappingURL=grid.css.map */
